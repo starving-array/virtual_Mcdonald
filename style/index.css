@@ -1,0 +1,313 @@
+/* // cart and counter */
+#cartNCounter {
+  height: 50vh;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  border: 1px solid #febd01;
+  /* border: 15px solid #febd01; */
+  background-color: white;
+}
+
+/* // order no || counter || order checkout=============================== */
+#counter {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: space-between;
+  letter-spacing: 2px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.boardHead {
+  color: red;
+  font-size: 1.2rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* height: 60px; */
+  /* border: 4px solid red; */
+}
+#counter > div > div {
+  display: flex;
+  flex-direction: column;
+}
+/* // counter order no  */
+/* # orderNo */
+/* orderNoAppend  */
+
+#orderNoAppend > div {
+  height: 50px;
+  border: 6px solid transparent;
+  display: flex;
+  /* border: 3px solid transparent; */
+  /* margin-top: 5px; */
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+/* #orderNoAppend span {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+} */
+
+/* // counterView ================= */
+#container {
+  /* border: 40px solid #febd01; */
+  width: 80%;
+  margin: auto;
+  background-color: #febd01;
+}
+
+#counterView {
+  width: 60%;
+  text-align: center;
+}
+
+/* // counter  */
+.counterRow {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.imageQueue {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  border: 6px solid transparent;
+}
+
+.imageQueue img {
+  margin: 0px 6px 0px 6px;
+  height: 50px;
+}
+
+/* // status =========================== */
+#status {
+  width: 20%;
+  display: grid;
+  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#statusAppend {
+  display: flex;
+  flex-direction: column;
+}
+#statusAppend span {
+  height: 50px;
+  border: 6px solid transparent;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+/* /// order process  */
+.pending {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.ready {
+  color: green;
+  font-size: 0.9rem;
+}
+
+/* // cart menu  */
+/* cart details  */
+
+#cart {
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  background-color: rgb(255, 252, 252);
+}
+#cart > span {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #f9d4d4;
+  color: #febd01;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 4px;
+  /* background-color: white; */
+  opacity: 0.7;
+  /* width: 100%; */
+}
+
+#cartView {
+  height: 77%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  grid-gap: 2px;
+  width: 90%;
+  margin: auto;
+}
+/* // cart  */
+.cartRowView {
+  /* max-width: 290px; */
+  height: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 60% 15%;
+  border: 10px solid transparent;
+  text-align: left;
+
+  font-size: 1.2rem;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.cartRowView span + span {
+  text-align: right;
+}
+/* // cart  */
+.cartRowView img {
+  height: 50px;
+}
+
+/* // order button  */
+/* thanks msg  */
+#msgInfoThanks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  border: 15px solid transparent;
+  font-size: 1.3rem;
+}
+
+#orderAdd {
+  height: 10%;
+  color: white;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0%;
+  background-color: white;
+  border: 5px solid transparent;
+}
+
+#orderAdd span:hover {
+  background-color: white;
+  color: green;
+  border-radius: 10px;
+}
+#orderAdd span {
+  border: 1px solid green;
+  padding: 4px 30px;
+  letter-spacing: 1.5px;
+  background-color: green;
+  font-weight: bold;
+}
+
+/* cart details ================================= */
+/* cart details ================================= */
+
+/* // quick menu ======================================= */
+/* // quick menu ======================================= */
+#quickmenu {
+  height: 60vh;
+  width: 90%;
+  margin: auto;
+  background-color: #febd01;
+  position: relative;
+  background-color: black;
+}
+
+/* // view menu  */
+#quickButton {
+  /* height: 50px; */
+  cursor: pointer;
+  box-shadow: white 0px 2px 10px 0px;
+  width: fit-content;
+  align-items: center;
+  background-color: red;
+  color: #f4d986;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 6px 16px;
+}
+
+#quickmenu > div:hover #quickPop {
+  display: grid;
+}
+
+#quickPop {
+  height: 40vh;
+  background-color: white;
+  z-index: 2;
+  width: 100%;
+  /* background-color: blueviolet; */
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  margin: auto;
+  overflow: scroll;
+  display: grid;
+  display: none;
+  grid-template-columns: repeat(11, 250px);
+  color: black;
+}
+
+/* // quick section  */
+#slideShow {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  border: 20px solid red;
+  box-shadow: white 4px 3px 9px 1px;
+}
+
+#slideShow img {
+  /* width: 900px; */
+  /* height: 30vh; */
+}
+
+#nav {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 2.9rem;
+  padding: 10px;
+  background-color: #febd01;
+  font-weight: bold;
+  color: red;
+}
+#nav > span {
+  /* background-color: transparent; */
+  /* background-color: aqua; */
+  text-shadow: white 4px 3px 8px;
+  letter-spacing: 1.2px;
+}

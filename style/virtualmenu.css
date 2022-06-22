@@ -1,0 +1,64 @@
+#virtualMenu {
+  height: 30vh;
+  background-color: white;
+  width: 89%;
+  margin: auto;
+  overflow: scroll;
+  
+  display: grid;
+  grid-template-columns: repeat(11, 280px);
+}
+.rowDisplayDiv {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: 12px solid transparent;
+}
+.rowDisplayDiv img {
+  height: 60px;
+}
+.boxProductDisplay {
+  /* min-width: 280px; */
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.imageBoxMenu {
+  position: relative;
+}
+.inputCheck {
+  position: absolute;
+  outline: none;
+  z-index: -1;
+}
+.boxProductDisplay:hover {
+  background-color: rgb(220, 215, 215);
+}
+.menuDisplayInfo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 220px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid transparent;
+}
+.menuDisplayInfo > :first-child {
+  width: 130px;
+  letter-spacing: 0.2px;
+}
+.priceSpanViewProduct {
+  font-size: 1.1rem;
+  color: green;
+  margin: 2px;
+}
+#quickButton img{
+  height: 20px;
+}
+
+/* // counter  */
+
