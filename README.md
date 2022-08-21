@@ -1,3 +1,27 @@
-# virtual_Mcdonald
 
-# kundly visit: https://virtual-mc-donald.netlify.app/
+# Virtual McDonald's
+
+This project had made as an assignment with the concept of McDonald Counter.
+As, we all know JavaScript is a single threaded language.
+So, the promise concept used here to develop multithreading in JS. 
+
+
+
+
+## Tech Stack
+
+**Client:** HTML, CSS, JS
+
+**Server:** Local Storage
+
+
+## Screenshots
+
+![App Screenshot](https://lh3.googleusercontent.com/I5JRX_V1Vioi6f5tuRdpVa_qyqXrRImyet-oCjwm_0_KWTkM-9YfB184nxBCmJDurAaIi-ModJoSGRbVpYOv-M-regmesWDUXmRcPwOWpqhErVy45tFAsE291n1_pzwF4DfLZESqEyyw1RaLqdyqGAmnCoCedRxaVkUIAMvWtD-x3SWQLOp1BW7ByifnxuFmEO7uxnGtiqDDbPzFOuBItW4adim_KQBf4kIS4V-FBvSmVKlwi8rA9TKS0gvILd70vgs1QwbGi4_Jnw73idERAVFGZGOXGRm_2iw6fw-PB4i1d6rEMEZ9ACR3dQRcMgXfr4vNfXKEw_yvhAsha2jvOMLgVr6260uTpXsDoaKE1Ncq0WCaohJcLoD_NiDgJl7krfGePzmVDXtpeLJ3YFl3E6uu2tWcwf_5UnNAUDR-ESroHhqF-OL0X3xQ9y_0fAv6GiXLQOjc1TLGICzVyqK-fIu48ENrI5lnlpUqj_bgIA8SLXdsPhSTLg9VdZXAbWUF3K8LV_kGOlNUe2-_81RtdcOxik9hAi6fqPA51jxEowO9Hm5PgsJKJmuaCKNtLfymqbSKyzKloNZV9O_QpCiEsH0cxbWhxOVv4UW5xWDx_k9aCBwE1o4xhjW1PKoOAW2iO7PvDzeb0jeUiEYuWV7v5l2KqT1XWJtR8IzHagOuw65VsAWFhvZb1v1Xkf5CxHlZMgBbZYBS5Ha03Hted0PhxcBkN3uznBVQBgcsy9U-h-he1cnUYhXyKRf4Rx7pg3K_HgMEuglBXA10LZZrzLApRkpeYUJNHFak7RHA00ceEDSm08M0dri0ju5HEmEwYuVY-hzLC_ltz984e1eFK85UUu7mje4Py85xgJdh_FNIm1VvZHvyjVqZqLue4HqtIv_K213jstfoKCoh7O8IeO5-IDdkZYemEUn-jocn9R2Rz51_YL7Ho3tv0uSRyaIjICvM21seUTbj3ACZxbemIYuU8bwe2LdrZ2MHzmGODopUVIWuyxdADlWKpfHEyBr6v5UHuhcdndjEef8SwMAxkfg-PT8=w1556-h854-no?authuser=1)
+
+
+## Demo
+
+Click the below link for demo
+
+https://virtual-mc-donald.netlify.app/
