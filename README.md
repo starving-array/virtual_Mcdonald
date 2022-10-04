@@ -7,8 +7,6 @@ So, the promise concept used here to develop multithreading in JS.
 
 
 
-
-
 **Server:** Local Storage
 
 
